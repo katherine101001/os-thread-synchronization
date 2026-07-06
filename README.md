@@ -2,7 +2,6 @@
 
 [![C](https://img.shields.io/badge/C-99-blue)](https://en.wikipedia.org/wiki/C99)
 [![pthreads](https://img.shields.io/badge/pthreads-POSIX-orange)](https://man7.org/linux/man-pages/man7/pthreads.7.html)
-[![Course](https://img.shields.io/badge/course-SOF201%20Operating%20System-blueviolet)]()
 
 > Extended producer-consumer problem with **dynamic buffer resizing** — 5 robots produce items, 2 workers consume them. Buffer expands/shrinks based on occupancy. Synchronized with **semaphores + mutex**.
 
@@ -68,12 +67,6 @@ gcc dynamic_slot_sync.c -o dynamic_slot_sync -lpthread
 
 ---
 
-## 📝 Context
-
-- **Course**: SOF201 Operating System, Xiamen University Malaysia
-- **Semester**: 2024/04
-- **Lecturer**: Venantius Kumar Sevamalai
-- **Author**: Katherine Tan (SWE2304438)
 
 ---
 
